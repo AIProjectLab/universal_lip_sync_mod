@@ -1,0 +1,32 @@
+{
+    "preset_name": "Biped Mobs (Zombie, Skeleton, Husk, Drowned)",
+    "version": 1,
+    "entity_type": "biped_mob",
+    "mob_ids": ["minecraft:zombie", "minecraft:skeleton", "minecraft:husk", "minecraft:drowned", "minecraft:stray", "minecraft:wither_skeleton"],
+    "description": "Standard biped mobs share the player's 8x8x8 head and arm geometry with different textures. Zombie arms are rotated forward but the shoulder bone origin is unchanged.",
+    "head_bone": "head",
+    "mouth_attachment": {
+        "bone": "head",
+        "transform": {
+            "t": [0.0, 0.05, 0.004],
+            "s": [1.0, 1.0, 1.0],
+            "r": [0.0, 0.0, 0.0]
+        }
+    },
+    "capabilities": {
+        "mouth": true,
+        "eyes": false,
+        "arms": true,
+        "elbows": true
+    },
+    "arm_mapping": {
+        "left": "left_arm",
+        "right": "right_arm"
+    },
+    "mob_specific_notes": {
+        "zombie": "Arms are pre-rotated ~90 degrees forward (pose, not pivot). Gestures must account for the zombie-arms resting pose or use Off.",
+        "skeleton": "Arms hold a bow. Gestures may conflict with held-item animations.",
+        "wither_skeleton": "Same head size but 2.4 block tall. Mouth placement is identical relative to head bone."
+    },
+    "notes": "Same head geometry as the player. Mouth placement is identical. Arm gestures need a per-mob resting-pose offset for zombies."
+}

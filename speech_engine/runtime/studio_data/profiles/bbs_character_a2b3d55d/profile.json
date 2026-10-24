@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "id": "bbs_character_a2b3d55d",
+  "name": "BBS character",
+  "fitted": true,
+  "source_model": "emoticons/alex",
+  "source_skin": "assets:models/player/alex/skin_SHVY936H.png",
+  "source_actor_index": 1,
+  "source_film": "C:\\Users\\shafe\\curseforge\\minecraft\\Instances\\BBS 1.21.1\\config\\lip_sync_studio\\jobs\\4ea959a4-eb14-4bf1-9fa7-dd3015a9280d\\snapshot.dat",
+  "source_instance": "C:\\Users\\shafe\\curseforge\\minecraft\\Instances\\BBS 1.21.1",
+  "bindings": {
+    "mouth": 0
+  },
+  "compatible_models": [],
+  "compatible_skins": [],
+  "viseme_map": {
+    "A": "a",
+    "B": "b",
+    "C": "c",
+    "D": "d",
+    "E": "o",
+    "F": "u",
+    "G": "f",
+    "H": "l",
+    "X": "idle"
+  },
+  "asset_hashes": {
+    "lip_sync_studio/bbs_character_a2b3d55d/extras/1f914e7354381a8c846a.png": "1f914e7354381a8c846a7e755f97069aba37a647f92301618a13bff423e0e3d1",
+    "lip_sync_studio/bbs_character_a2b3d55d/extras/5d38598e9a098b38e4d3.png": "5d38598e9a098b38e4d3dcf0eb2f29f7f7c075d6f386ce386160c5cfd9ff106c",
+    "models/lip_sync_studio/bbs_character_a2b3d55d/model_0/config.json": "8b16dacf3836f6b380e6bb21c03ee7468b6a0759529f2cd0431ce35c749c695d",
+    "models/lip_sync_studio/bbs_character_a2b3d55d/model_0/slim.bobj": "d5acc2bb91624b38f2e2b1ce974bf52797a63ce56802e4addf6f86d53f73937f",
+    "models/lip_sync_studio/bbs_character_a2b3d55d/mouth/config.json": "719b22d1ca191bb32f4e0312974dfea529e5eabc683faa619fa8c4013921f220",
+    "models/lip_sync_studio/bbs_character_a2b3d55d/mouth/model.bbs.json": "6b6a95d7979f3d780f6eee38d70f4715033b1071ce1f097f603171bcd1a1c4ef",
+    "models/lip_sync_studio/bbs_character_a2b3d55d/mouth/poses.json": "4d5cb6b6f3de9c2a94ad7f7e1dffdfc93e8e682ed0abc04449c7e3be19a42223",
+    "models/lip_sync_studio/bbs_character_a2b3d55d/mouth/texture.png": "2a5494fe2d5d46e65ccf620a5113c70b024baae892453f91380d9e1f23104489"
+  },
+  "bridge_source_body_signature": "e5176dadab3143e7b094f3cb93bc14125914130b2bd9f71fbaf803a9ee0981ba",
+  "bridge_fingerprint": "c9ffde458d7adefaf6fd2ffb9f3a152ee57dd3b6ea2dfcb62c17730378bf6409",
+  "bridge_visual_reviewed": true
+}

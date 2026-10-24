@@ -1,0 +1,20 @@
+# Gradle / Loom build outputs
+client_mod/.gradle/
+client_mod/build/
+client_mod/.idea/
+client_mod/*.iml
+*.class
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+speech_engine/runtime/build/studio_test_temp/
+speech_engine/runtime/studio_data/analysis_cache/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.log

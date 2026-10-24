@@ -1,0 +1,64 @@
+{
+  "texture": "assets:lip_sync_studio/bbs_character_5a01f100/extras/1f914e7354381a8c846a.png",
+  "pose_group": "emoticons/steve",
+  "culling": false,
+  "scale": [
+    0.9375,
+    0.9375,
+    0.9375
+  ],
+  "items_main": [
+    {
+      "group": "low_right_arm.end",
+      "transform": {
+        "t": [
+          -0.03125,
+          -0.25,
+          0.125
+        ],
+        "r": [
+          180.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "items_off": [
+    {
+      "group": "low_left_arm.end",
+      "transform": {
+        "t": [
+          0.03125,
+          -0.25,
+          0.125
+        ],
+        "r": [
+          180.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bones": {
+    "misc_bone_1": {
+      "hidden": true
+    },
+    "misc_bone_2": {
+      "hidden": true
+    },
+    "misc_bone_3": {
+      "hidden": true
+    },
+    "misc_gbone_1": {
+      "hidden": true
+    },
+    "misc_gbone_2": {
+      "hidden": true
+    },
+    "misc_gbone_3": {
+      "hidden": true
+    }
+  }
+}

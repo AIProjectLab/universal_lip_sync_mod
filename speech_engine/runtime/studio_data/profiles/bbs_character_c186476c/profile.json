@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "bbs_character_c186476c",
+  "name": "BBS character",
+  "fitted": true,
+  "source_model": "emoticons/alex",
+  "source_skin": "assets:models/player/alex/skin_Q3P81U1G.png",
+  "source_actor_index": 0,
+  "source_film": "C:\\Users\\shafe\\curseforge\\minecraft\\Instances\\BBS 1.21.1\\config\\lip_sync_studio\\jobs\\028aec29-25f3-4a63-a9e3-6bde59586345\\snapshot.dat",
+  "source_instance": "C:\\Users\\shafe\\curseforge\\minecraft\\Instances\\BBS 1.21.1",
+  "bindings": {
+    "mouth": 0,
+    "eyes": 1
+  },
+  "compatible_models": [],
+  "compatible_skins": [],
+  "viseme_map": {
+    "A": "a",
+    "B": "b",
+    "C": "c",
+    "D": "d",
+    "E": "o",
+    "F": "u",
+    "G": "f",
+    "H": "l",
+    "X": "idle"
+  },
+  "asset_hashes": {
+    "lip_sync_studio/bbs_character_c186476c/extras/1f914e7354381a8c846a.png": "1f914e7354381a8c846a7e755f97069aba37a647f92301618a13bff423e0e3d1",
+    "lip_sync_studio/bbs_character_c186476c/extras/441e7ede06ca60ed9864.png": "441e7ede06ca60ed986417650b9dfb601e158957646921d82656057261f93ab7",
+    "models/lip_sync_studio/bbs_character_c186476c/model_0/config.json": "e84a70e843e5366fc5d337ddbe824d44ad9cb5b36d189cf9ad5371b97744b9c9",
+    "models/lip_sync_studio/bbs_character_c186476c/model_0/slim.bobj": "d5acc2bb91624b38f2e2b1ce974bf52797a63ce56802e4addf6f86d53f73937f",
+    "models/lip_sync_studio/bbs_character_c186476c/mouth/config.json": "1d1761d1d74094dcc4c21817b129bbdddacc0d79d07847c5229a02163835906a",
+    "models/lip_sync_studio/bbs_character_c186476c/mouth/model.bbs.json": "6b6a95d7979f3d780f6eee38d70f4715033b1071ce1f097f603171bcd1a1c4ef",
+    "models/lip_sync_studio/bbs_character_c186476c/mouth/poses.json": "4d5cb6b6f3de9c2a94ad7f7e1dffdfc93e8e682ed0abc04449c7e3be19a42223",
+    "models/lip_sync_studio/bbs_character_c186476c/mouth/texture.png": "2a5494fe2d5d46e65ccf620a5113c70b024baae892453f91380d9e1f23104489",
+    "models/lip_sync_studio/bbs_character_c186476c/eyes/config.json": "fef2e213311f1404341c79bd418273c23fa0edcfb2d1b094496bcbcac9d76d55",
+    "models/lip_sync_studio/bbs_character_c186476c/eyes/model.bbs.json": "f254b86970929be865da5ee424c890dae0851a582d3c555c5abd20047448b943",
+    "models/lip_sync_studio/bbs_character_c186476c/eyes/poses.json": "a319a9c6b3b73a0a22b55191ddd8d7784c1e2a37be6a637bd23b32931cd87531",
+    "models/lip_sync_studio/bbs_character_c186476c/eyes/texture.png": "d5f7365421e33e686500ef0ffe8ebd117276139445b3aa13af83f02544f91b4b"
+  },
+  "bridge_source_body_signature": "7d0819639a312b56df878f45fa162fa23ccfca945cc638df0492f537dc9d5906",
+  "bridge_fingerprint": "3658e7986653440ad2e73ae141769720a32b1b9b2143dd59607681facc2bf4f0",
+  "bridge_visual_reviewed": true
+}

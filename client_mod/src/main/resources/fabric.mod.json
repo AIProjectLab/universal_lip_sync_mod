@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "lip_sync_studio",
+  "version": "0.1.0",
+  "name": "Lip Sync Studio for BBS",
+  "description": "Generate dialogue from an actor's BBS context menu, with guided mouth fitting and Antigravity rig handoff.",
+  "environment": "client",
+  "license": "MIT",
+  "entrypoints": {"bbs-addon": ["dev.lipsync.studio.LipSyncAddon"]},
+  "depends": {"fabricloader": ">=0.16.14", "minecraft": "1.21.1", "java": ">=21", "bbs": "2.3.3-1.21.1"}
+}

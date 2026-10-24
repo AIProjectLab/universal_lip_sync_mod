@@ -1,0 +1,34 @@
+{
+    "preset_name": "Villager & Illager (Nose Offset)",
+    "version": 1,
+    "entity_type": "villager_illager",
+    "mob_ids": ["minecraft:villager", "minecraft:wandering_trader", "minecraft:pillager", "minecraft:vindicator", "minecraft:evoker", "minecraft:illusioner"],
+    "description": "Villagers have a protruding 2x4x2 nose centered on the face. The mouth must be placed BELOW the nose tip, not at the standard player mouth position. Illagers share the same head geometry.",
+    "head_bone": "head",
+    "mouth_attachment": {
+        "bone": "head",
+        "transform": {
+            "t": [0.0, -0.15, 0.12],
+            "s": [0.85, 0.75, 0.85],
+            "r": [0.0, 0.0, 0.0]
+        },
+        "fitting_notes": "ty lowered to clear the nose bottom. tz pushed forward to sit in front of the nose base. sx/sy slightly reduced so the mouth aperture sits within the chin area."
+    },
+    "capabilities": {
+        "mouth": true,
+        "eyes": false,
+        "arms": true,
+        "elbows": false
+    },
+    "arm_mapping": {
+        "left": "left_arm",
+        "right": "right_arm"
+    },
+    "mob_specific_notes": {
+        "villager": "Arms are folded (crossed) by default. Talking gestures should use a subtle unfolding motion or stay Off to avoid breaking the iconic pose.",
+        "pillager": "Arms hold a crossbow. Use Off gestures unless the character is unarmed.",
+        "vindicator": "Holds an axe. Same arm caution as pillager."
+    },
+    "requires_visual_review": true,
+    "notes": "The nose protrusion is the main fitting challenge. Each villager profession uses a different hat/overlay but the face geometry is identical. Preset values are approximate; the user should preview and fine-tune ty/tz in the fitting wizard."
+}

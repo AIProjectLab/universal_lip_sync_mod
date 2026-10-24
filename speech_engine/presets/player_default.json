@@ -1,0 +1,36 @@
+{
+    "preset_name": "Standard Player (Steve / Alex)",
+    "version": 1,
+    "entity_type": "player",
+    "mob_id": null,
+    "description": "Standard 8x8x8 player head with flat 2D face texture. Chamfered 3D mouth cavity at tz=0.004.",
+    "head_bone": "head",
+    "mouth_attachment": {
+        "bone": "head",
+        "transform": {
+            "t": [0.0, 0.05, 0.004],
+            "s": [1.0, 1.0, 1.0],
+            "r": [0.0, 0.0, 0.0]
+        }
+    },
+    "capabilities": {
+        "mouth": true,
+        "eyes": true,
+        "arms": true,
+        "elbows": true
+    },
+    "arm_mapping": {
+        "left": "left_arm",
+        "right": "right_arm"
+    },
+    "shoulder_pivots": {
+        "left": [-6, 22, 0],
+        "right": [6, 22, 0]
+    },
+    "elbow_cut_y": 18,
+    "slim_variant": {
+        "arm_width": 3,
+        "note": "Alex-style slim arms use 3-pixel width instead of 4"
+    },
+    "notes": "Fully tested and cached. Zero setup required for any standard player skin."
+}

@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "id": "alice_803a58e5",
+  "name": "Alice",
+  "fitted": true,
+  "source_model": "test/mesh",
+  "source_skin": "assets:models/test/body/skin.png",
+  "source_actor_index": 0,
+  "source_film": "C:\\awahab\\universal_lip_sync_mod\\speech_engine\\runtime\\build\\studio_test_temp\\tmpzuxhkg78\\mesh_fitted.dat",
+  "source_instance": "C:\\awahab\\universal_lip_sync_mod\\speech_engine\\runtime\\build\\studio_test_temp\\tmpzuxhkg78\\instance",
+  "bindings": {
+    "mouth": 0
+  },
+  "compatible_models": [],
+  "compatible_skins": [],
+  "viseme_map": {
+    "A": "a",
+    "B": "b",
+    "C": "c",
+    "D": "d",
+    "E": "o",
+    "F": "u",
+    "G": "f",
+    "H": "l",
+    "X": "idle"
+  },
+  "asset_hashes": {
+    "lip_sync_studio/alice_803a58e5/extras/2a5494fe2d5d46e65ccf.png": "2a5494fe2d5d46e65ccf620a5113c70b024baae892453f91380d9e1f23104489",
+    "models/lip_sync_studio/alice_803a58e5/model_0/config.json": "6d1dd50d91cfdb1c9fa000321b74eee9bb9c9787a435a254687c840f27ec23ba",
+    "models/lip_sync_studio/alice_803a58e5/model_0/mesh.obj": "4de35ee29524cdfdace1f5908bc5f2dfec94ba0369d255c02e8080714bcdeecc",
+    "models/lip_sync_studio/alice_803a58e5/mouth/config.json": "5534aece14b23d6e2a230e16711dba9e1a5a68d28bef16dd62692194d6200dcf",
+    "models/lip_sync_studio/alice_803a58e5/mouth/model.bbs.json": "6b6a95d7979f3d780f6eee38d70f4715033b1071ce1f097f603171bcd1a1c4ef",
+    "models/lip_sync_studio/alice_803a58e5/mouth/poses.json": "4d5cb6b6f3de9c2a94ad7f7e1dffdfc93e8e682ed0abc04449c7e3be19a42223",
+    "models/lip_sync_studio/alice_803a58e5/mouth/texture.png": "2a5494fe2d5d46e65ccf620a5113c70b024baae892453f91380d9e1f23104489"
+  }
+}

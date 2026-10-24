@@ -1,0 +1,44 @@
+{
+    "preset_name": "Quadruped Animals (Snout Tip Placement)",
+    "version": 1,
+    "entity_type": "quadruped_snout",
+    "mob_ids": ["minecraft:cow", "minecraft:pig", "minecraft:sheep", "minecraft:wolf", "minecraft:fox", "minecraft:horse", "minecraft:cat", "minecraft:ocelot"],
+    "description": "Quadrupeds have extended snouts or muzzles. The mouth sits at the front TIP of the snout, not at player face depth. Each animal has a different snout length and head proportions.",
+    "head_bone": "head",
+    "fitting_strategy": "adaptive_snout",
+    "mob_variants": {
+        "cow": {
+            "head_size": [8, 8, 6],
+            "snout_depth": 6,
+            "mouth_transform": {"t": [0.0, -0.1, 0.35], "s": [0.7, 0.5, 0.6], "r": [0.0, 0.0, 0.0]},
+            "note": "Wide flat face. Mouth sits at front of the 6-deep head."
+        },
+        "pig": {
+            "head_size": [8, 8, 8],
+            "snout_depth": 4,
+            "snout_protrusion": {"from": [-2, 1, -5], "size": [4, 3, 1]},
+            "mouth_transform": {"t": [0.0, -0.05, 0.32], "s": [0.55, 0.45, 0.5], "r": [0.0, 0.0, 0.0]},
+            "note": "Pig has a flat snout plate protruding from the face."
+        },
+        "wolf": {
+            "head_size": [6, 6, 4],
+            "snout_depth": 6,
+            "mouth_transform": {"t": [0.0, -0.15, 0.38], "s": [0.5, 0.4, 0.5], "r": [0.0, 0.0, 0.0]},
+            "note": "Narrow elongated snout. Mouth must be small and forward."
+        },
+        "horse": {
+            "head_size": [4, 12, 7],
+            "snout_depth": 14,
+            "mouth_transform": {"t": [0.0, -0.4, 0.7], "s": [0.4, 0.35, 0.45], "r": [0.15, 0.0, 0.0]},
+            "note": "Very long head. Mouth at the very bottom-front tip. Slight X rotation to follow the jaw angle."
+        }
+    },
+    "capabilities": {
+        "mouth": true,
+        "eyes": false,
+        "arms": false,
+        "elbows": false
+    },
+    "arm_mapping": null,
+    "notes": "Quadrupeds have no arms for gestures. Blinks are possible on some models with eyelid mods. The main challenge is placing the mouth at the correct snout tip without clipping into the head interior. All values are starting estimates; visual review is mandatory. For small animals (cat, ocelot, fox) the mouth must be scaled down significantly."
+}
